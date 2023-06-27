@@ -193,6 +193,15 @@
   dependencies:
     tslib "^2.3.0"
 
+"@angular/localize@^16.1.0":
+  version "16.1.2"
+  resolved "https://registry.yarnpkg.com/@angular/localize/-/localize-16.1.2.tgz#db4b38fe05311330e7d1a0bdd8fca38d01712aa6"
+  integrity sha512-3MCjS/sJONzYNxBq+u908I74SXt03qPRzhJ3qkHkP7I9DIrj6dDkEKUVz7P6aoiT2QzbNJPx2nIWZb2iODayZA==
+  dependencies:
+    "@babel/core" "7.21.8"
+    fast-glob "3.2.12"
+    yargs "^17.2.1"
+
 "@angular/platform-browser-dynamic@^16.1.0":
   version "16.1.2"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-16.1.2.tgz#d4e7176f0c230ac464a8a13f6fd8623b6afdf278"
@@ -1402,6 +1411,13 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
+"@ng-bootstrap/ng-bootstrap@15.0.1":
+  version "15.0.1"
+  resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-15.0.1.tgz#0f67a7bd4015d3a2387134c97a819a23296655d2"
+  integrity sha512-a86fcS6XPpC/FyZ/nx4oLnTWd/XEe7ZLYjqEU/VIj5RTVPgbC6ieKCeaprIEabFf/k0Jw2j4X4CdiFiE+xfXPA==
+  dependencies:
+    tslib "^2.3.0"
+
 "@ngtools/webpack@16.1.1":
   version "16.1.1"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-16.1.1.tgz#fdfe5a4a50fedcbf4a4e7dbf3d92c95802965227"
@@ -1484,6 +1500,11 @@
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
+
+"@popperjs/core@^2.11.6":
+  version "2.11.8"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
+  integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
 "@schematics/angular@16.1.1":
   version "16.1.1"
@@ -2177,6 +2198,11 @@ boolbase@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==
+
+bootstrap@^5.2.3:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.3.0.tgz#0718a7cc29040ee8dbf1bd652b896f3436a87c29"
+  integrity sha512-UnBV3E3v4STVNQdms6jSGO2CvOkjUMdDAVR2V5N4uCMdaIkaQjbcEAMqRimDHIs4uqBYzDAKCQwCB+97tJgHQw==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
