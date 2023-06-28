@@ -1,0 +1,8 @@
+<div *ngIf="!loading" class="container d-flex justify-content-center mt-4 mb-4 align-content-center">
+  <div class="col  mb-4">
+    <div class="mb-4 w-25" *ngFor="let movie of movies">
+        <movie-card [movie]="movie"></movie-card>
+    </div>
+  </div>
+</div>
+
