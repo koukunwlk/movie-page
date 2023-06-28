@@ -1,0 +1,9 @@
+<div class="card h-100">
+  <img [src]="movie.image" class="card-img-top img-fixed-height" alt="Card Image">
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">{{ movie.title }}</h5>
+    <p class="card-text">{{ movie.description }}</p>
+    <button *ngIf="!movie.likesCount" (click)="like()" class="btn btn-primary mt-auto">Like</button>
+    <p *ngIf="movie.likesCount" class="card-text">Likes: {{movie.likesCount }}</p>
+  </div>
+</div>
