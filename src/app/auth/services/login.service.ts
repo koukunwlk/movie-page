@@ -12,13 +12,13 @@ export class LoginService {
 
   login(credentials: Login): Observable<User | null> {
     return this.http.post<User>(
-      'http://localhost:3000/auth/login',
+      'http://localhost:3000/api/auth/login',
       credentials
     );
   }
 
   register(newUser: RegisterUser) {
-    return this.http.post('http://localhost:3000/users', newUser);
+    return this.http.post('http://localhost:3000/api/users', newUser);
   }
 
   userIsAuthenticated(): Observable<boolean> {

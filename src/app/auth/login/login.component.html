@@ -9,12 +9,12 @@
         <div class="card-body">
           <form [formGroup]="loginForm" (submit)="onSubmit()">
             <div class="mb-3">
-              <label for="username" class="form-label">Username</label>
-              <input formControlName="username" type="text" name="username" class="form-control" id="username" placeholder="Enter username">
+              <label for="username" class="form-label">Usuário</label>
+              <input formControlName="username" type="text" name="username" class="form-control" id="username" placeholder="Digite seu usuário">
             </div>
             <div class="mb-3">
-              <label for="password" class="form-label">Password</label>
-              <input formControlName="password" type="password" name="password" class="form-control" id="password" placeholder="Enter password">
+              <label for="password" class="form-label">Senha</label>
+              <input formControlName="password" type="password" name="password" class="form-control" id="password" placeholder="Digite sua senha">
               <div *ngIf="message" class="alert alert-danger" role="alert">
                 {{ message }}
               </div>

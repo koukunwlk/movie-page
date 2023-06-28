@@ -5,7 +5,7 @@ import { LoginService } from 'src/app/auth/services/login.service';
 import { Observable, catchError, map, of } from 'rxjs';
 import { ActivatedRoute, Router } from '@angular/router';
 
-const BASE_URL = 'http://localhost:3000/movie';
+const BASE_URL = 'http://localhost:3000/api/movie';
 
 @Injectable({
   providedIn: 'root',
